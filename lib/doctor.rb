@@ -12,6 +12,12 @@ class Doctor
     time.doctor = self
   end
 
+  def patients
+    self.appointments.collect do |appointment|
+      appointment.patient
+    end
+  end
+
 end
 
 #   def add_appointment(time)
