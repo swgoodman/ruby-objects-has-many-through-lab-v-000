@@ -9,6 +9,6 @@ class Patient
 
   def add_appointment(time)
     @appointments << time
-    appointment.patient = self
+    time.patient = self
   end
 end
