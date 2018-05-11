@@ -17,7 +17,6 @@ class Doctor
       appointment.patient
     end
   end
-
 end
 
 #   def add_appointment(time)
