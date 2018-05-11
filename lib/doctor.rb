@@ -4,8 +4,8 @@ class Doctor
 
   def initialize(name)
     @name = name
-    @patients = []
     @appointments = []
+    @patients = []
   end
 
   def add_appointment(appointment)
