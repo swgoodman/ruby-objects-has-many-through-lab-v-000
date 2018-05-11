@@ -7,9 +7,7 @@ class Patient
     @appointments = []
   end
 
-  def doctors
-    @appointments.collect do |appointment|
-      appointment.doctor
-    end
+  def add_appointment(time)
+    @appointments << time
+    patient.appointment = self
   end
-end
