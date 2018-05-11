@@ -6,6 +6,12 @@ class Doctor
     @name = name
     @appointments = []
   end
+
+  def add_appointment(time)
+    @appointments << time
+    time.doctor = self
+  end
+
 end
 
 #   def add_appointment(time)
