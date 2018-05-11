@@ -11,4 +11,8 @@ class Patient
     @appointments << time
     time.patient = self
   end
+
+  def appointments
+    @appointments
+  end
 end
